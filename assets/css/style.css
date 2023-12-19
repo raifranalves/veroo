@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(46deg, #32160F 0%, #512c25 51.04%, #000 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden; /*remove a barra de rolagem*/
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto; /*Centraliza a div*/
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    border-bottom: 1px solid #8c6553;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    height: 30px;
+}
+
+header ul li {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #8c6553;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+main img {
+    width: 690px;
+    height: auto;
+}
+
+
+h4 {
+    color: #d8a661;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 380px;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+main div button {
+    border-radius: 31.014px;
+    background: #d8a661;
+    box-shadow: 0px 2.48px 2.48 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+main div button a {
+    color: #000;
+    font-size: 11.165px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 20px;
+}
+
+footer {
+    display: flex;
+    background: #4e2a23;
+    box-shadow: 0px -8px 25px 0px rgba(0,0,0,0.30);
+    height: 200px;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 317px;
+    margin: 28px 94px 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -100px;
+    right: 450px;
+    gap: 40px
+}
