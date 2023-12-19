@@ -1,2 +1,8 @@
-# veroo
-Projeto baseado na videoaula do canal do birobirobiro.
+# Veroo
+Veroo é um site de cafés.
+## Tecnologias
+* HTML
+* CSS
+
+## Preview
+[Resultado final](linkurl)
